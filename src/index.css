@@ -16,3 +16,9 @@ body {
   min-height: calc(100vh - 58px - 40px);
 }
 
+
+.about-img {
+  width: 350px;
+  height: 350px;
+
+}
