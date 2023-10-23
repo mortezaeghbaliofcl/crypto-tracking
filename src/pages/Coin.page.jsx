@@ -6,7 +6,7 @@ import CoinDetailsComponent from '../components/coins/CoinDetails.component';
 import SpinnerComponent from '../components/ui/Spinner.component';
 
 
-const coinPage = () => {
+const CoinPage = () => {
     const paramObject = useParams();
     const url = detailsUrl(paramObject.id);
 
@@ -39,4 +39,4 @@ const coinPage = () => {
     )
 }
 
-export default coinPage
+export default CoinPage
