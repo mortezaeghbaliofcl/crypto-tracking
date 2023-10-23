@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import SpinnerComponent from '../components/ui/Spinner.component';
+import CoinsComponent from '../components/coins/Coins.component';
 import axios from 'axios';
 import { baseURL } from '../constants/api';
-import CoinsComponent from '../components/coins/Coins.component';
 
 
 
@@ -35,9 +35,8 @@ const HomePage = () => {
     <div className='container'>
       <div className="row">
         <div className="col-12 text-center">
-          <h1>Crypto Tracking</h1>
-          <h4>A place to manage all of your trade information and actions</h4>
-          <h5>Do not forget to always using asset and risk management!!!!</h5>
+          <h5>A place to manage all of your trade information and actions</h5>
+          <span>Do not forget to always using asset and risk management!!!!</span>
         </div>
 
       </div>
